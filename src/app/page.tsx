@@ -43,9 +43,7 @@ export default function Home() {
         <p className="intro">One open list, made for everyone.</p>
         <a
           className="contact"
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=sebastien%40sbkl.ltd"
-          target="_blank"
-          rel="noreferrer"
+          href="mailto:sebastien@sbkl.ltd"
         >
           Say hello <span>↗</span>
         </a>
