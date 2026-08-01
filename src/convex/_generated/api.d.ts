@@ -23,6 +23,10 @@ import type * as users_mutation from "../users/mutation.js";
 import type * as users_query from "../users/query.js";
 import type * as users_table from "../users/table.js";
 import type * as users_utils from "../users/utils.js";
+import type * as webSubscriptions_internal_action from "../webSubscriptions/internal/action.js";
+import type * as webSubscriptions_internal_query from "../webSubscriptions/internal/query.js";
+import type * as webSubscriptions_mutation from "../webSubscriptions/mutation.js";
+import type * as webSubscriptions_table from "../webSubscriptions/table.js";
 import type * as wines_table from "../wines/table.js";
 
 import type {
@@ -47,6 +51,10 @@ declare const fullApi: ApiFromModules<{
   "users/query": typeof users_query;
   "users/table": typeof users_table;
   "users/utils": typeof users_utils;
+  "webSubscriptions/internal/action": typeof webSubscriptions_internal_action;
+  "webSubscriptions/internal/query": typeof webSubscriptions_internal_query;
+  "webSubscriptions/mutation": typeof webSubscriptions_mutation;
+  "webSubscriptions/table": typeof webSubscriptions_table;
   "wines/table": typeof wines_table;
 }>;
 

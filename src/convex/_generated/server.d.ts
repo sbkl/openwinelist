@@ -30,6 +30,9 @@ type Env = {
   readonly RESEND_API_KEY: string;
   readonly RESEND_EMAIL_FROM: string;
   readonly SITE_URL: string;
+  readonly VAPID_PRIVATE_KEY: string;
+  readonly VAPID_PUBLIC_KEY: string;
+  readonly VAPID_SUBJECT: string;
   readonly WORKOS_ACTION_SECRET: string;
   readonly WORKOS_API_KEY: string;
   readonly WORKOS_CLIENT_ID: string;

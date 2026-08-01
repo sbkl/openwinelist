@@ -17,6 +17,9 @@ const app = defineApp({
     WORKOS_COOKIE_PASSWORD: v.string(),
     // WORKOS_MOBILE_CLIENT_ID: v.string(),
     WORKOS_WEBHOOK_SECRET: v.string(),
+    VAPID_PUBLIC_KEY: v.string(),
+    VAPID_PRIVATE_KEY: v.string(),
+    VAPID_SUBJECT: v.string(),
   },
 });
 

@@ -3,6 +3,7 @@ import { Organisations } from "./organisations/table";
 import { Producers } from "./producers/table";
 import { Wines } from "./wines/table";
 import { Users } from "./users/table";
+import { WebSubscriptions } from "./webSubscriptions/table";
 
 export default defineSchema({
   users: Users.table
@@ -32,4 +33,5 @@ export default defineSchema({
     .index("by_producerId_and_slug", ["producerId", "slug"])
     .index("by_producerId_and_status", ["producerId", "status"])
     .index("by_producerId_and_type", ["producerId", "type"]),
+  webSubscriptions: WebSubscriptions.table.index("userId", ["userId"]),
 });
