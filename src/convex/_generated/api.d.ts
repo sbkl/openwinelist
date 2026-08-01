@@ -19,6 +19,8 @@ import type * as producers_table from "../producers/table.js";
 import type * as resend from "../resend.js";
 import type * as users_internal_mutation from "../users/internal/mutation.js";
 import type * as users_internal_query from "../users/internal/query.js";
+import type * as users_mutation from "../users/mutation.js";
+import type * as users_query from "../users/query.js";
 import type * as users_table from "../users/table.js";
 import type * as users_utils from "../users/utils.js";
 import type * as wines_table from "../wines/table.js";
@@ -41,6 +43,8 @@ declare const fullApi: ApiFromModules<{
   resend: typeof resend;
   "users/internal/mutation": typeof users_internal_mutation;
   "users/internal/query": typeof users_internal_query;
+  "users/mutation": typeof users_mutation;
+  "users/query": typeof users_query;
   "users/table": typeof users_table;
   "users/utils": typeof users_utils;
   "wines/table": typeof wines_table;
